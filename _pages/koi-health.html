@@ -1,0 +1,10 @@
+---
+layout: page
+title: Koi Health
+permalink: /koi-health/
+---
+{% for item in site.koi-health %}
+	<div class="cookie">
+		<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+	</div>
+{% endfor %}

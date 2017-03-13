@@ -1,0 +1,11 @@
+
+current: en
+
+languages: ['en', 'tw', 'cn']
+
+
+
+
+en: English
+tw: 中文 (繁体)
+cn: 中文 (简体)

@@ -1,0 +1,50 @@
+
+<!-- put that inside a proper css file.. -->
+<style type="text/css">
+
+  .en:lang(en), .tw:lang(tw), .cn:lang(cn), .ja:lang(ja){
+      font-weight: bold;
+  }
+</style>
+
+
+<!-- display all available translations of this article, based on its shared 'ref' yaml field -->
+
+<ul>
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% for post in posts %}
+    <li>
+      <a href="{{ post.url }}" class="{{ post.lang }}">{{site.data.languages[page.lang] }}</a>
+    </li>
+  {% endfor %}
+
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %}
+    <li>
+      <a href="{{ page.url }}" class="{{ page.lang }}">{{site.data.languages[page.lang] }}</a>
+    </li>
+  {% endfor %}
+
+
+
+  <!-- pages inside collections are not found with the above two loops, doing this now... -->
+
+
+  <!-- find active collection -->
+  {% for coll in site.collections %}
+
+    <!-- not sure this will work with permalinks ... -->
+  	{% if page.relative_path contains coll.relative_directory %}
+
+  		<!-- <p> got active collection, with articles under coll.docs, and collection name as coll.label </p> -->
+      {% assign pages=coll.docs | where:"ref", page.ref | sort: 'lang' %}
+      {% for page in pages %}
+        <li>
+          <a href="{{ page.url }}" class="{{ page.lang }}">{{site.data.languages[page.lang] }}</a>
+        </li>
+      {% endfor %}
+
+  	{% endif %}
+  {% endfor %}
+
+</ul>
