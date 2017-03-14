@@ -27,11 +27,11 @@ permalink: /about/
 
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-      <img class="d-block img-fluid" src="/images/1.jpg" alt="First slide">
+      <img class="d-block img-fluid" src="/images/carousel/1.jpg" alt="First slide">
     </div>
 
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="/images/2.jpg" alt="Second slide">
+      <img class="d-block img-fluid" src="/images/carousel/2.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
         <h3>Sakai</h3>
         <p>Koi Auction in Hiroshima, Japan</p>
@@ -39,11 +39,11 @@ permalink: /about/
     </div>
 
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="/images/3.jpg" alt="Third slide">
+      <img class="d-block img-fluid" src="/images/carousel/3.jpg" alt="Third slide">
     </div>
 
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="/images/4.jpg" alt="Third slide">
+      <img class="d-block img-fluid" src="/images/carousel/4.jpg" alt="Third slide">
     </div>
 
   </div>
