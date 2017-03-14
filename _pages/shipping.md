@@ -6,7 +6,7 @@ permalink: /koi-shipping/
 
 # Flying Koi to China
 
-![flykoi2-960x250-back2](http://koi-institute.com/container/uploads/flykoi2-960x250-back2.jpg)](http://koi-institute.com/container/uploads/flykoi2-960x250-back2.jpg)
+![flykoi2-960x250-back2](/images/main/flykoi2-960x250-back2.jpg)](/images/main/flykoi2-960x250-back2.jpg)
 
 ### INTERNATIONAL KOI TRANSPORT
 

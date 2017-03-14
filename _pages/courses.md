@@ -5,7 +5,7 @@ permalink: /courses/
 ---
 
 
-[![home-page-header-tablet1-1300x433](http://koi-institute.com/container/uploads/home-page-header-tablet1-1300x433.jpg)](http://koi-institute.com/container/uploads/home-page-header-tablet1-1300x433.jpg)
+[![home-page-header-tablet1-1300x433](/images/main/home-page-header-tablet1-1300x433.jpg)](/images/main/home-page-header-tablet1-1300x433.jpg)
 
 Sign up one of our free online course on Koi keeping, Koi health and the Koi industry now.
 
@@ -17,7 +17,7 @@ IKI aims to provide knowledge and new research insights for the full spectrum of
 
 Lecturers include professor Zhang of the National Pingtung Universtiy of Science and Technology, Kentaro Saki of Sakai Fishfarm in Japan and the CEO of IKI, Ms. Chung Yingying, who has been lecturing at universities, government agencies and Koi associations for a number of years.
 
-[![home-page-education-960x240](http://koi-institute.com/container/uploads/home-page-education-960x240.jpg)](http://koi-institute.com/container/uploads/home-page-education-960x240.jpg)
+[![home-page-education-960x240](/images/main/home-page-education-960x240.jpg)
 
 ### Online and offline courses
 
