@@ -17,7 +17,7 @@ IKI aims to provide knowledge and new research insights for the full spectrum of
 
 Lecturers include professor Zhang of the National Pingtung Universtiy of Science and Technology, Kentaro Saki of Sakai Fishfarm in Japan and the CEO of IKI, Ms. Chung Yingying, who has been lecturing at universities, government agencies and Koi associations for a number of years.
 
-[![home-page-education-960x240](/images/main/home-page-education-960x240.jpg){: .img-fluid }
+![home-page-education-960x240](/images/main/home-page-education-960x240.jpg)
 
 ### Online and offline courses
 
