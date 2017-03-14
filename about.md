@@ -12,7 +12,8 @@ permalink: /about/
 
 
 
-
+  <br />
+  
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
