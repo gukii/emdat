@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Courses
+lang: en
 permalink: /courses/
 ---
 

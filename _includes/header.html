@@ -35,29 +35,47 @@
       <button class="navbar-toggler navbar-toggler-right navbar-light" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="{{ site.url }}"><img src="/images/IKI-logo-cn-280x115-light-alpha.png" /></a>
+
+
+      <a class="navbar-brand" href="{{ site.baseurl }}{{ site.data.languages[page.lang].index }}">
+        {{ site.data.languages[page.lang].site_title }}
+      </a>
+
+
+      <!--<a class="navbar-brand" href="{{ site.baseurl }}{{ site.index[page.lang] }}"><img src="{{ site.data.[page.lang] }}" /></a>-->
+
+
+      <!--<a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>-->
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
 
-          {% for my_page in site.pages %}
-            {% if my_page.title %}
 
-              {% if page.url == (my_page.url | relative_url) %}
-                <li class="nav-item active">
-              {% else %}
-                <li class="nav-item">
-              {% endif %}
+          {% assign pages=site.pages | where:"lang", page.lang %}
+          {% for my_page in pages %}
+            {% if my_page.title and my_page.ref != "index" %}
+              <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">
 
-                  <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                {% if page.url == (my_page.url | relative_url) %}
+                  <li class="nav-item active">
+                {% else %}
+                  <li class="nav-item">
+                {% endif %}
+
+                  {{ my_page.title | escape }}
                 </li>
+              </a>
             {% endif %}
           {% endfor %}
+
+
+
 
         </ul>
 
       </div>
     </nav>
+
 
 <!--
     <nav>
@@ -92,6 +110,7 @@
       </div>
     </nav>
 -->
+
 
 
 </header>
