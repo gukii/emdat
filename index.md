@@ -112,6 +112,10 @@ The Sing Chang Koifarm of Taiwan specialises in fast-growing varieties, includin
 	"slidesToShow": 3,
 	"arrows": true ,
 	"centerMode": false,
+	"slidesToShow": 3,
+	"slidesToScroll": 1,
+	"arrows": true ,
+	"centerMode": false,
 	"adaptiveHeight": false,
 	"variableWidth": true,
 	"swipe": true
