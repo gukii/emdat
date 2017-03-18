@@ -6,7 +6,6 @@
 
   .active {
       font-weight: bold;
-      color: red;
   }
 
 
@@ -36,11 +35,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-
+<!--
       <a class="navbar-brand" href="{{ site.baseurl }}{{ site.data.languages[page.lang].index }}">
         {{ site.data.languages[page.lang].site_title }}
       </a>
-
+-->
+      <a class="navbar-brand" href="{{ site.baseurl }}{{ site.data.languages[page.lang].index }}">
+        <img src="{{ site.data.languages[page.lang].site_logo }}" />
+      </a>
 
       <!--<a class="navbar-brand" href="{{ site.baseurl }}{{ site.index[page.lang] }}"><img src="{{ site.data.[page.lang] }}" /></a>-->
 
@@ -49,7 +51,6 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-
 
           {% assign pages=site.pages | where:"lang", page.lang %}
           {% for my_page in pages %}
