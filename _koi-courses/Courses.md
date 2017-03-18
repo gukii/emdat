@@ -2,6 +2,7 @@
 layout: page
 title: Courses about Koi
 permalink: /courses/
+lang: tw
 ---
 
 # Courses

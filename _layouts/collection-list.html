@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<ul>
+
+	{% assign coll=site.collections | where:"label", page.collection-id  %}
+
+	{% if coll %}
+		<!--<p> got active collection:{{coll[0].label}}</p>-->
+
+		{% assign items=coll[0].docs | where:"lang", page.lang  %}
+		{% for item in items %}
+			<div class="cookie">
+				<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+				{{ item.content }}
+			</div>
+		{% endfor %}
+
+	{% endif %}
+
+</ul>

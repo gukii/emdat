@@ -2,7 +2,12 @@
 layout: page
 ---
 <div class="collection-item">
-  <h2><img src="{{ page.image_path }}" alt="page.title" />{{ page.title }}</h2>
+  <h2>
+    {% if page.image_path %}
+      <img src="{{ page.image_path }}" alt="page.title" />
+    {% endif %}
+    <!--{{ page.title }}-->
+  </h2>
 
   <div class="blog-post spacing">
     {{ content }}

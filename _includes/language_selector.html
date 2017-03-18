@@ -14,14 +14,14 @@
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% for post in posts %}
     <li>
-      <a href="{{ post.url }}" class="{{ post.lang }}">{{site.data.languages[page.lang] }}</a>
+      <a href="{{ post.url }}" class="{{ post.lang }}">{{site.data.languages.lang_names[page.lang] }}</a>
     </li>
   {% endfor %}
 
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for page in pages %}
     <li>
-      <a href="{{ page.url }}" class="{{ page.lang }}">{{site.data.languages[page.lang] }}</a>
+      <a href="{{ page.url }}" class="{{ page.lang }}">{{site.data.languages.lang_names[page.lang] }}</a>
     </li>
   {% endfor %}
 
@@ -40,7 +40,7 @@
       {% assign pages=coll.docs | where:"ref", page.ref | sort: 'lang' %}
       {% for page in pages %}
         <li>
-          <a href="{{ page.url }}" class="{{ page.lang }}">{{site.data.languages[page.lang] }}</a>
+          <a href="{{ page.url }}" class="{{ page.lang }}">{{site.data.languages.lang_names[page.lang] }}</a>
         </li>
       {% endfor %}
 

@@ -2,11 +2,11 @@
 layout: page
 title: Shipping
 permalink: /koi-shipping/
+lang: en
 ---
 
-# Flying Koi to China
 
-![flykoi2-960x250-back2](/images/main/flykoi2-960x250-back2.jpg)](/images/main/flykoi2-960x250-back2.jpg)
+![flykoi2-960x250-back2](/images/main/flykoi2-960x250-back2.jpg)
 
 ### INTERNATIONAL KOI TRANSPORT
 
