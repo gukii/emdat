@@ -13,10 +13,9 @@ carousel: true
 
 ---
 
+ ![home-page-header-sakai-yy-tablet2-8](/images/main/home-page-header-sakai-yy-tablet2-8.jpg)
+ The expert-center for education, research and trade, based on the island of Taiwan.
 
-The expert-center for education, research and trade, based on the island of Taiwan
-
- ![home-page-header-sakai-yy-tablet2-8](http://koi-institute.com/container/uploads/home-page-header-sakai-yy-tablet2-8.jpg)
 
 ## Education
 
@@ -31,7 +30,7 @@ IKI cooperates with a number of institutions that are on the forefront of Koi-re
 
 IKI serves as a trading partner and transfer station for Koifarms in Japan and Taiwan. We provide high-grade Koi that has been tested for fertility and health, certified and issued all necessary papers. One of our main trading partners is China and the emerging economies of Asia.
 
-[home-page-researchers10-960x240](http://koi-institute.com/container/uploads/home-page-researchers10-960x240.jpg)
+[home-page-researchers10-960x240](/images/main/home-page-researchers10-960x240.jpg)
 
 ### Ongoing research
 
@@ -43,7 +42,7 @@ NPUST is on the forefront of Koi research. IKI’s cooperating with NPUST allows
 
 ## Courses and seminars
 
-![home-page-header-tablet1-1300x433](http://koi-institute.com/container/uploads/home-page-header-tablet1-1300x433.jpg)
+![home-page-header-tablet1-1300x433](/images/main/home-page-header-tablet1-1300x433.jpg)
 
 ### Register for courses online
 
@@ -65,7 +64,7 @@ Locations are IKI and NPUST in Taiwan, and partner institutions in China, Europe
 
 ## Parent Koi for breeding
 
-![home-page-fertility4-960x240](http://koi-institute.com/container/uploads/home-page-fertility4-960x2401.jpg)
+![home-page-fertility4-960x240](/images/main/home-page-fertility4-960x2401.jpg)
 
 ### Testing parent Koi
 
@@ -84,7 +83,7 @@ Our expertise in Koi purchasing, health checking and transporting Koi enables us
 
 ## Koi Breeders
 
-![home-page-breeders1-1300x300](http://koi-institute.com/container/uploads/home-page-breeders1-1300x3001.jpg)
+![home-page-breeders1-1300x300](/images/main/home-page-breeders1-1300x3001.jpg)
 
 ### High-grade
 
@@ -122,11 +121,11 @@ The Sing Chang Koifarm of Taiwan specialises in fast-growing varieties, includin
 	"swipe": true
 }'>
 
-  <div class="brandslide"><img src="http://koi-institute.com/container/uploads/SAKAI_LOGO-300.jpg"></div>
-  <div class="brandslide"><img src="http://koi-institute.com/container/uploads/LUXE_LOGO-300x73.png"></div>
-  <div class="brandslide"><img src="http://koi-institute.com/container/uploads/PABP_LOGO_W-300-alpha.png"></div>
-  <div class="brandslide"><img src="http://koi-institute.com/container/uploads/EMDAT-LOGO-131x80-alpha.png"></div>
-  <div class="brandslide"><img src="http://koi-institute.com/container/uploads/sc-logo-300x73-alpha.png"></div>
+  <div class="brandslide"><img src="/images/main/SAKAI_LOGO-300.jpg"></div>
+  <div class="brandslide"><img src="/images/main/LUXE_LOGO-300x73.png"></div>
+  <div class="brandslide"><img src="/images/main/PABP_LOGO_W-300-alpha.png"></div>
+  <div class="brandslide"><img src="/images/main/EMDAT-LOGO-131x80-alpha.png"></div>
+  <div class="brandslide"><img src="/images/main/sc-logo-300x73-alpha.png"></div>
 
 </div>
 
