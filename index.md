@@ -106,10 +106,8 @@ The Sing Chang Koifarm of Taiwan specialises in fast-growing varieties, includin
 
 ## Partner organisations
 
-<div class="slider" data-slick='{
+<div class="brandslider" data-slick='{
 	"autoplay": true,
-	"slidesToScroll": 1,
-	"slidesToShow": 3,
 	"arrows": true ,
 	"centerMode": true,
 	"arrows": true ,
@@ -119,11 +117,11 @@ The Sing Chang Koifarm of Taiwan specialises in fast-growing varieties, includin
 	"swipe": true
 }'>
 
-  <div class="slickslide"><img src="http://koi-institute.com/container/uploads/SAKAI_LOGO-300.jpg"></div>
-  <div class="slickslide"><img src="http://koi-institute.com/container/uploads/LUXE_LOGO-300x73.png"></div>
-  <div class="slickslide"><img src="http://koi-institute.com/container/uploads/PABP_LOGO_W-300-alpha.png"></div>
-  <div class="slickslide"><img src="http://koi-institute.com/container/uploads/EMDAT-LOGO-131x80-alpha.png"></div>
-  <div class="slickslide"><img src="http://koi-institute.com/container/uploads/sc-logo-300x73-alpha.png"></div>
+  <div class="brandslide"><img src="http://koi-institute.com/container/uploads/SAKAI_LOGO-300.jpg"></div>
+  <div class="brandslide"><img src="http://koi-institute.com/container/uploads/LUXE_LOGO-300x73.png"></div>
+  <div class="brandslide"><img src="http://koi-institute.com/container/uploads/PABP_LOGO_W-300-alpha.png"></div>
+  <div class="brandslide"><img src="http://koi-institute.com/container/uploads/EMDAT-LOGO-131x80-alpha.png"></div>
+  <div class="brandslide"><img src="http://koi-institute.com/container/uploads/sc-logo-300x73-alpha.png"></div>
 
 </div>
 
