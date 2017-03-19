@@ -18,56 +18,56 @@ The expert-center for education, research and trade, based on the island of Taiw
 
  ![home-page-header-sakai-yy-tablet2-8](http://koi-institute.com/container/uploads/home-page-header-sakai-yy-tablet2-8.jpg)
 
-# Education
+## Education
 
 IKI provides courses, lectures, research programs and internships to Koi enthusiasts ranging from beginners to experts. These programs are offered in cooperation with universities, associations and Koi breeders. Courses are held at IKI and partner institutions. Among the lecturers are Koi breeders Kentaro Sakai of Japan, Ms. Chung Yingying of Taiwan, ZNA judges, professors and leading researchers.
 
-# Research
+## Research
 
 IKI cooperates with a number of institutions that are on the forefront of Koi-related research. The fields range from virology, bacteria, business to Koi food. Partner Koi farms actively run experiments, improve their practices and provide feedback.
 
 
-# Trade
+## Trade
 
 IKI serves as a trading partner and transfer station for Koifarms in Japan and Taiwan. We provide high-grade Koi that has been tested for fertility and health, certified and issued all necessary papers. One of our main trading partners is China and the emerging economies of Asia.
 
 [home-page-researchers10-960x240](http://koi-institute.com/container/uploads/home-page-researchers10-960x240.jpg)
 
-## Ongoing research
+### Ongoing research
 
 One mission of IKI is to field-test and apply new research at different levels of the supply chain, including breeders, retailers and koi keepers. This takes place during field studies, experiments at breeders and in product development. The findings of our partners have been especially helpful in bringing traditional Koi breeding into the modern age.
 
-## Cooperation with NPUST
+### Cooperation with NPUST
 
 NPUST is on the forefront of Koi research. IKI’s cooperating with NPUST allows us to provide industry feedback, train interns and plan an active part in the research process. Some courses offered are taking place at NPUST.
 
-# Courses and seminars
+## Courses and seminars
 
 ![home-page-header-tablet1-1300x433](http://koi-institute.com/container/uploads/home-page-header-tablet1-1300x433.jpg)
 
-## Register for courses online
+### Register for courses online
 
 A number of beginner, advanced and expert-level courses are now open for registration.
 
 [More Information](http://koi-institute.com/courses/)</div>
 
-## Industry experts
+### Industry experts
 
 Industry experts, such as Mr. Sakai from Japan and Ms. Chung (aka KoiQueen) teach courses and seminars. Laboratory classes are held in cooperation with NPUST.
 
 [More Information](http://koi-institute.com/courses/)
 
-## Multiple locations
+### Multiple locations
 
 Locations are IKI and NPUST in Taiwan, and partner institutions in China, Europe and the USA.
 
 [More Information](http://koi-institute.com/courses/)
 
-# Parent Koi for breeding
+## Parent Koi for breeding
 
 ![home-page-fertility4-960x240](http://koi-institute.com/container/uploads/home-page-fertility4-960x2401.jpg)
 
-## Testing parent Koi
+### Testing parent Koi
 
 Parent Koi undergo a number of tests including ultrasound, X-ray, blood tests and bacteria tests to ensure that they are suitable for breeding and healthy. If deemed suitable, they get certified and shipped to their final destination.
 
@@ -76,35 +76,40 @@ Parent Koi undergo a number of tests including ultrasound, X-ray, blood tests an
 
 [See some Koi](http://koi-institute.com/koi/ "See some Koi")
 
-## Experts in shipping
+### Experts in shipping
 
 Our expertise in Koi purchasing, health checking and transporting Koi enables us to ship certified Koi with all necessary papers to breeders in the emerging markets such as China, Indonesia and the Philippines. Airports in Kaohsiung and Taipei can reach most destinations.
 
 [More about shipping](http://koi-institute.com/home-pages/flying-koi-to-china/)
 
-# Koi Breeders
+## Koi Breeders
 
 ![home-page-breeders1-1300x300](http://koi-institute.com/container/uploads/home-page-breeders1-1300x3001.jpg)
 
-## High-grade
+### High-grade
 
 IKI provides access to high-grade parent Koi from Taiwan and Japan’s best breeders.
 
 [See some Koi](http://koi-institute.com/koi/)
 
-## Sakai
+### Sakai
 
-Sakai Fishfarm of Japan is one of the worlds best breeders. IKI provides direct access to their high grade Koi facilitates shipping, testing and certification.
+Sakai Fishfarm of Japan is one of the worlds best breeders. As an official agent for Sakai, IKI provides direct access to their high grade Koi facilitates shipping, testing and certification.
 
 [More about breeders](http://koi-institute.com/koi-breeders/)
 
 
-## Sing Chang
+### Niigata Breeders
+
+We are also Koi dealers for the following japanese Koi farms:
+Omosako, Narita, Dainichi, Momotaro, Marujyu and have access to many other farms in the Niigata region.
+
+### Sing Chang
 
 The Sing Chang Koifarm of Taiwan specialises in fast-growing varieties, including rare varieties. Their Koi participate at international Koi shows and regularly get awarded.
 
 
-## Partner organisations
+### Partner organisations
 
 <div class="brandslider" data-slick='{
 	"autoplay": true,
