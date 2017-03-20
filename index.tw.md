@@ -1,16 +1,16 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
 
 title: Home-TW
 ref: index
 permalink: /home-tw/
 lang: tw
 
+slides: photos300
 ---
+before
 
+{% include s_slides.html name="slider" slideclass="brandslide" %}
 
 ## taiwan kkk
 

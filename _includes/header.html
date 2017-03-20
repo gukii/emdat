@@ -31,9 +31,7 @@
 <!-- <nav class="navbar navbar-toggleable-md navbar-light bg-faded"> -->
 
     <nav class="navbar navbar-toggleable-md">
-      <button class="navbar-toggler navbar-toggler-right navbar-light" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+
 
 <!--
       <a class="navbar-brand" href="{{ site.baseurl }}{{ site.data.languages[page.lang].index }}">
@@ -44,13 +42,19 @@
         <img src="{{ site.data.languages[page.lang].site_logo }}" />
       </a>
 
+      <button class="navbar-toggler navbar-toggler-right navbar-light" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
       <!--<a class="navbar-brand" href="{{ site.baseurl }}{{ site.index[page.lang] }}"><img src="{{ site.data.[page.lang] }}" /></a>-->
 
 
       <!--<a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>-->
 
+
+
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+        <ul class="navbar-nav mt-2 mt-md-0 mr-auto">
 
           {% assign pages=site.pages | where:"lang", page.lang %}
           {% for my_page in pages %}
@@ -69,10 +73,8 @@
             {% endif %}
           {% endfor %}
 
-
-
-
         </ul>
+
 
       </div>
     </nav>

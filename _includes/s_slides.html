@@ -1,0 +1,64 @@
+<!--
+<div class="brandslider"
+  data-slick='{
+  	"autoplay": true,
+  	"arrows": true ,
+  	"centerMode": true,
+  	"arrows": true ,
+  	"centerMode": false,
+  	"adaptiveHeight": false,
+  	"variableWidth": true,
+  	"swipe": true
+  }'
+>
+
+  <div class="brandslide"><img src="/images/main/SAKAI_LOGO-300.jpg"></div>
+  <div class="brandslide"><img src="/images/main/LUXE_LOGO-300x73.png"></div>
+  <div class="brandslide"><img src="/images/main/PABP_LOGO_W-300-alpha.png"></div>
+  <div class="brandslide"><img src="/images/main/EMDAT-LOGO-131x80-alpha.png"></div>
+  <div class="brandslide"><img src="/images/main/sc-logo-300x73-alpha.png"></div>
+
+</div>
+-->
+
+<div class="{{ include.name }}"
+  data-slick='{
+  	"autoplay": true,
+  	"arrows": true ,
+  	"centerMode": true,
+  	"arrows": true ,
+  	"centerMode": false,
+  	"variableWidth": true,
+    "vertical": false,
+  	"swipe": true
+  }'
+>
+
+{% if include.slideclass %}
+  {% assign slideclass = include.slideclass %}
+{% else %}
+  {% assign slideclass = 'slick_slide' %}
+{% endif %}
+
+<!-- if images are located in the /images/category/ref folder, then display them -->
+{% if page.slides %}
+	{% capture filepath %}/images/slides/{{include.slides}}{% endcapture %}
+	{% for static_file in site.static_files %}
+
+	    {% if static_file.path contains filepath %}
+
+          {% if ['.jpg', '.jpeg', '.png', 'PNG'] contain static_file.extname %}
+            RIGHT FILE type
+          {% endif %}
+
+          <div class="{{ slideclass }}">
+            <a href="{{static_file.path}}" alt="{{ static_file.basename }}">
+              <img src="{{ static_file.path }}" alt="{{static_file.basename}}">
+            </a>
+          </div>
+
+  		{% endif %}
+	{% endfor %}
+{% endif %}
+
+</div>
