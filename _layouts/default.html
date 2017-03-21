@@ -17,26 +17,10 @@
 
 
 
-    {% include language_selector.html %}
+      {% include language_selector.html %}
 
 
-      <div class="row">
-        <div class="col-sm-9">
-
-            <div class="page-content" aria-label="Content">
-                {{ content }}
-            </div>
-
-        </div>
-        <div class="col-sm-3">
-
-          {% include aside.html %}
-
-        </div>
-      </div>
-
-
-
+      {{ content }}
 
 
       {% include footer.html %}
