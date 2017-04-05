@@ -1,7 +1,17 @@
+
+
 <footer class="site-footer">
 
   <div class="wrapper">
 
+    <p class="text-center">
+      {{ site.data.languages[page.lang].copyright1 | escape }}
+      {{ 'now' | date:"%Y" }}
+      {{ site.data.languages[page.lang].copyright2 | escape }}
+    </p>
+
+
+<!--
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
     <div class="footer-col-wrapper">
@@ -40,6 +50,9 @@
         <p>{{ site.description | escape }}</p>
       </div>
     </div>
+-->
+
+
 
   </div>
 

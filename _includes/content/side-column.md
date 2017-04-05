@@ -11,7 +11,7 @@ IKI is located strategically on the island of Taiwan, next door to Japan, China 
 CEO Chung Yingying  
 [info@koi-institute.com](mailto:info@koi-institute.com)
 
-CTO Leo Liang  
+EA Zhao Emily
 [info@koi-institute.com](mailto:info@koi-institute.com)
 
 #### Notice:

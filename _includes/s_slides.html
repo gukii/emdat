@@ -27,7 +27,7 @@
   	"arrows": true ,
   	"centerMode": true,
   	"arrows": true ,
-  	"centerMode": false,
+    "variableHeight": false,
   	"variableWidth": true,
     "vertical": false,
   	"swipe": true
@@ -41,19 +41,33 @@
 {% endif %}
 
 <!-- if images are located in the /images/category/ref folder, then display them -->
+<!-- can t add trailing slash, .. why s that? maybe need to strip trailing spaces with     | rstrip  -->
 {% if page.slides %}
 	{% capture filepath %}/images/slides/{{include.slides}}{% endcapture %}
 	{% for static_file in site.static_files %}
 
 	    {% if static_file.path contains filepath %}
 
-          {% if ['.jpg', '.jpeg', '.png', 'PNG'] contain static_file.extname %}
-            RIGHT FILE type
+          {% if ['.JPEG', '.JPG', '.jpg', '.jpeg', '.png', 'PNG'] contains static_file.extname %}
+            <p>
+              "RIGHT FILE type"
+              "RIGHT FILE type"
+              "RIGHT FILE type"
+              "RIGHT FILE type"
+              "RIGHT FILE type"
+              "RIGHT FILE type"
+              "RIGHT FILE type"
+
+              "RIGHT FILE type"
+              "RIGHT FILE type"
+              "RIGHT FILE type"
+
+            </p>
           {% endif %}
 
           <div class="{{ slideclass }}">
-            <a href="{{static_file.path}}" alt="{{ static_file.basename }}">
-              <img src="{{ static_file.path }}" alt="{{static_file.basename}}">
+            <a href="{{static_file.path}}" alt="{{ static_file.basename | replace: '-', ' ' }}">
+              <img src="{{ static_file.path }}" alt="{{static_file.basename | replace: '-', ' '}}">
             </a>
           </div>
 

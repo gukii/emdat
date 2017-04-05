@@ -18,6 +18,8 @@ $(window).load(function() {
 /* initialize slick slider.. */
 $(".slider").slick();
 
+$(".headerslider").slick();
+
 /* initialize the brand slider, the images in there are more horizontal.. */
 $(".brandslider").slick({
 
