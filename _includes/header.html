@@ -42,9 +42,12 @@
         <img src="{{ site.data.languages[page.lang].site_logo }}" />
       </a>
 
+
       <button class="navbar-toggler navbar-toggler-right navbar-light" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+
 
       <!--<a class="navbar-brand" href="{{ site.baseurl }}{{ site.index[page.lang] }}"><img src="{{ site.data.[page.lang] }}" /></a>-->
 
@@ -86,6 +89,9 @@
         <a class="brand-logo" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
 
 
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+
         <ul class="right hide-on-med-and-down">
 
           {% for my_page in site.pages %}
@@ -102,10 +108,6 @@
 
         </ul>
 
-        <ul>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-
-        </ul>
 
         <ul class="side-nav" id="mobile-demo">
 
