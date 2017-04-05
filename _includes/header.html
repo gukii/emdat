@@ -85,7 +85,7 @@
       <div class="nav-wrapper">
         <a class="brand-logo" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
 
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
         <ul class="right hide-on-med-and-down">
 
           {% for my_page in site.pages %}
@@ -101,6 +101,10 @@
           {% endfor %}
 
         </ul>
+
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+
         <ul class="side-nav" id="mobile-demo">
 
           {% for my_page in site.pages %}
